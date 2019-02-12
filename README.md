@@ -34,18 +34,3 @@ If you'd like only the JSON list of airport codes, you can use either the Backbo
 require('airport-codes').toJSON();
 require('airport-codes/airports.json');
 ```
-
-## Update the list of Airport Codes
-
-### Fetch Airport codes
-
-```
-$ wget https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat
-```
-
-### Generate the list
-
-Convert the list of airport codes from csv format to JSON.
-
-```
-node convert.js
