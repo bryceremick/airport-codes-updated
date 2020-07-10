@@ -4,7 +4,7 @@
 ## Install
 
 ```
-npm install airport-codes
+npm install airport-codes-updated
 ```
 
 ## Usage
